@@ -1,4 +1,4 @@
-NetmeraBenchmark
+NetmeraPushTest
 ============
 
 This Netmera iOs sdk based application test Netmera push service.
