@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F758B17E15FF4D5100656C97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B17D15FF4D5100656C97 /* UIKit.framework */; };
+		F758B18015FF4D5100656C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B17F15FF4D5100656C97 /* Foundation.framework */; };
+		F758B18215FF4D5100656C97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B18115FF4D5100656C97 /* CoreGraphics.framework */; };
+		F758B18815FF4D5100656C97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F758B18615FF4D5100656C97 /* InfoPlist.strings */; };
+		F758B18A15FF4D5100656C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F758B18915FF4D5100656C97 /* main.m */; };
+		F758B18E15FF4D5100656C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F758B18D15FF4D5100656C97 /* AppDelegate.m */; };
+		F758B19115FF4D5100656C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F758B19015FF4D5100656C97 /* ViewController.m */; };
+		F758B19415FF4D5100656C97 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F758B19215FF4D5100656C97 /* ViewController.xib */; };
+		F758B19F15FF4DBA00656C97 /* netmera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B19E15FF4DBA00656C97 /* netmera.framework */; };
+		F758B1A115FF4DE400656C97 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A015FF4DE400656C97 /* libz.dylib */; };
+		F758B1A315FF4DF300656C97 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A215FF4DF300656C97 /* MobileCoreServices.framework */; };
+		F758B1A515FF4DFE00656C97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A415FF4DFE00656C97 /* Security.framework */; };
+		F758B1A715FF4E2300656C97 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A615FF4E2300656C97 /* CFNetwork.framework */; };
+		F758B1A915FF4E3500656C97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A815FF4E3500656C97 /* SystemConfiguration.framework */; };
+		F758B1BC15FF879500656C97 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F758B1BB15FF879500656C97 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F758B17915FF4D5100656C97 /* NetmeraPushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraPushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F758B17D15FF4D5100656C97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F758B17F15FF4D5100656C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F758B18115FF4D5100656C97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F758B18515FF4D5100656C97 /* NetmeraPushTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetmeraPushTest-Info.plist"; sourceTree = "<group>"; };
+		F758B18715FF4D5100656C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F758B18915FF4D5100656C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F758B18B15FF4D5100656C97 /* NetmeraPushTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetmeraPushTest-Prefix.pch"; sourceTree = "<group>"; };
+		F758B18C15FF4D5100656C97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F758B18D15FF4D5100656C97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F758B18F15FF4D5100656C97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F758B19015FF4D5100656C97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F758B19315FF4D5100656C97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F758B19E15FF4DBA00656C97 /* netmera.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = netmera.framework; sourceTree = "<group>"; };
+		F758B1A015FF4DE400656C97 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F758B1A215FF4DF300656C97 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F758B1A415FF4DFE00656C97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F758B1A615FF4E2300656C97 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F758B1A815FF4E3500656C97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F758B1BB15FF879500656C97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F758B17615FF4D5100656C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758B1A915FF4E3500656C97 /* SystemConfiguration.framework in Frameworks */,
+				F758B1A715FF4E2300656C97 /* CFNetwork.framework in Frameworks */,
+				F758B1A515FF4DFE00656C97 /* Security.framework in Frameworks */,
+				F758B1A315FF4DF300656C97 /* MobileCoreServices.framework in Frameworks */,
+				F758B1A115FF4DE400656C97 /* libz.dylib in Frameworks */,
+				F758B19F15FF4DBA00656C97 /* netmera.framework in Frameworks */,
+				F758B17E15FF4D5100656C97 /* UIKit.framework in Frameworks */,
+				F758B18015FF4D5100656C97 /* Foundation.framework in Frameworks */,
+				F758B18215FF4D5100656C97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F758B16E15FF4D5100656C97 = {
+			isa = PBXGroup;
+			children = (
+				F758B1BB15FF879500656C97 /* README.md */,
+				F758B18315FF4D5100656C97 /* NetmeraPushTest */,
+				F758B17C15FF4D5100656C97 /* Frameworks */,
+				F758B17A15FF4D5100656C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F758B17A15FF4D5100656C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F758B17915FF4D5100656C97 /* NetmeraPushTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F758B17C15FF4D5100656C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F758B1A815FF4E3500656C97 /* SystemConfiguration.framework */,
+				F758B1A615FF4E2300656C97 /* CFNetwork.framework */,
+				F758B1A415FF4DFE00656C97 /* Security.framework */,
+				F758B1A215FF4DF300656C97 /* MobileCoreServices.framework */,
+				F758B1A015FF4DE400656C97 /* libz.dylib */,
+				F758B19E15FF4DBA00656C97 /* netmera.framework */,
+				F758B17D15FF4D5100656C97 /* UIKit.framework */,
+				F758B17F15FF4D5100656C97 /* Foundation.framework */,
+				F758B18115FF4D5100656C97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F758B18315FF4D5100656C97 /* NetmeraPushTest */ = {
+			isa = PBXGroup;
+			children = (
+				F758B18C15FF4D5100656C97 /* AppDelegate.h */,
+				F758B18D15FF4D5100656C97 /* AppDelegate.m */,
+				F758B18F15FF4D5100656C97 /* ViewController.h */,
+				F758B19015FF4D5100656C97 /* ViewController.m */,
+				F758B19215FF4D5100656C97 /* ViewController.xib */,
+				F758B18415FF4D5100656C97 /* Supporting Files */,
+			);
+			path = NetmeraPushTest;
+			sourceTree = "<group>";
+		};
+		F758B18415FF4D5100656C97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F758B18515FF4D5100656C97 /* NetmeraPushTest-Info.plist */,
+				F758B18615FF4D5100656C97 /* InfoPlist.strings */,
+				F758B18915FF4D5100656C97 /* main.m */,
+				F758B18B15FF4D5100656C97 /* NetmeraPushTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F758B17815FF4D5100656C97 /* NetmeraPushTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F758B19715FF4D5100656C97 /* Build configuration list for PBXNativeTarget "NetmeraPushTest" */;
+			buildPhases = (
+				F758B17515FF4D5100656C97 /* Sources */,
+				F758B17615FF4D5100656C97 /* Frameworks */,
+				F758B17715FF4D5100656C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetmeraPushTest;
+			productName = NetmeraPushTest;
+			productReference = F758B17915FF4D5100656C97 /* NetmeraPushTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F758B17015FF4D5100656C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Netmera;
+			};
+			buildConfigurationList = F758B17315FF4D5100656C97 /* Build configuration list for PBXProject "NetmeraPushTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F758B16E15FF4D5100656C97;
+			productRefGroup = F758B17A15FF4D5100656C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F758B17815FF4D5100656C97 /* NetmeraPushTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F758B17715FF4D5100656C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758B18815FF4D5100656C97 /* InfoPlist.strings in Resources */,
+				F758B19415FF4D5100656C97 /* ViewController.xib in Resources */,
+				F758B1BC15FF879500656C97 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F758B17515FF4D5100656C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F758B18A15FF4D5100656C97 /* main.m in Sources */,
+				F758B18E15FF4D5100656C97 /* AppDelegate.m in Sources */,
+				F758B19115FF4D5100656C97 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F758B18615FF4D5100656C97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F758B18715FF4D5100656C97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F758B19215FF4D5100656C97 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F758B19315FF4D5100656C97 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F758B19515FF4D5100656C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F758B19615FF4D5100656C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F758B19815FF4D5100656C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetmeraPushTest/NetmeraPushTest-Prefix.pch";
+				INFOPLIST_FILE = "NetmeraPushTest/NetmeraPushTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F758B19915FF4D5100656C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetmeraPushTest/NetmeraPushTest-Prefix.pch";
+				INFOPLIST_FILE = "NetmeraPushTest/NetmeraPushTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F758B17315FF4D5100656C97 /* Build configuration list for PBXProject "NetmeraPushTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758B19515FF4D5100656C97 /* Debug */,
+				F758B19615FF4D5100656C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F758B19715FF4D5100656C97 /* Build configuration list for PBXNativeTarget "NetmeraPushTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F758B19815FF4D5100656C97 /* Debug */,
+				F758B19915FF4D5100656C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F758B17015FF4D5100656C97 /* Project object */;
+}
