@@ -10,6 +10,7 @@
 
 #import "ViewController.h"
 #import "Netmera/Netmera.h"
+#import "DataManager.h"
 
 @implementation AppDelegate
 
@@ -22,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [NetmeraClient initWithApiKey:@"WVhCd1ZYSnNQV2gwZEhBbE0wRWxNa1lsTWtZME5UVXdOekUyTnk1dVpYUnRaWEpoTG1OdmJTVXpRVGd3SlRKR2JXOWlhVzFsY21FbE1rWm5ZV1JuWlhRbE1rWm9iMjFsTG5odGJDWnViVk5wZEdWVmNtdzlhSFIwY0NVelFTVXlSaVV5UmpRMU5UQTNNVFkzTG01bGRHMWxjbUV1WTI5dEpUTkJPREFtYlc5a2RXeGxTV1E5TmpJME1pWmhjSEJKWkQwME5UVXdOekUyTnladWJWUmxiWEJzWVhSbFBXMXZZbWwwWlcxd2JHRjBaU1p2ZDI1bGNrbGtQWE5sY21oaGRDMXpZWEpwSm1SdmJXRnBiajF1WlhSdFpYSmhMbU52YlNadWJWTnBkR1U5TkRVMU1EY3hOamNtYjNkdVpYSlNiMnhsVkhsd1pUMHhKblpwWlhkbGNsSnZiR1ZVZVhCbFBURW1kbWxsZDJWeVNXUTljMlZ5YUdGMExYTmhjbWtt"];
+    [NetmeraClient initWithApiKey:@"WVhCd1ZYSnNQV2gwZEhBbE0wRWxNa1lsTWtZME5qYzRORE0xTkM1dVpYUnRaWEpoTG1OdmJTVXpRVGd3SlRKR2JXOWlhVzFsY21FbE1rWm5ZV1JuWlhRbE1rWm9iMjFsTG5odGJDWnViVk5wZEdWVmNtdzlhSFIwY0NVelFTVXlSaVV5UmpRMk56ZzBNelUwTG01bGRHMWxjbUV1WTI5dEpUTkJPREFtYlc5a2RXeGxTV1E5T0RNeE9DWmhjSEJKWkQwME5qYzRORE0xTkNadWJWUmxiWEJzWVhSbFBXMXZZbWwwWlcxd2JHRjBaU1p2ZDI1bGNrbGtQV05oWjNKcFkyVjBhVzQ0T1Naa2IyMWhhVzQ5Ym1WMGJXVnlZUzVqYjIwbWJtMVRhWFJsUFRRMk56ZzBNelUwSm05M2JtVnlVbTlzWlZSNWNHVTlNU1oyYVdWM1pYSlNiMnhsVkhsd1pUMHhKblpwWlhkbGNrbGtQV05oWjNKcFkyVjBhVzQ0T1NZ"];
     
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes: UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound];
 
@@ -31,6 +32,10 @@
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    DataManager *dataManager = [DataManager getInstance];
+    //dataManager.devicetoken = @"<02ebfd7a ac20641b f9cce758 e4438336 31e2a517 8a9655fc 1ab3815c fc19bb19>";//[deviceToken description];//
+    
     return YES;
 }
 
@@ -61,29 +66,42 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
 - (void)application:(UIApplication *)app didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     
     NSString *token = [NSString stringWithFormat:@"%@",deviceToken];
     NSLog(@"Device Token =  %@" ,token);
-    [NetmeraPushService registerInBackgroundWithToken:token];
-    
+    //[NetmeraPushService registerInBackgroundWithToken:token];
+    DataManager *dataManager = [DataManager getInstance];
+    dataManager.devicetoken = [deviceToken description];//@"<02ebfd7a ac20641b f9cce758 e4438336 31e2a517 8a9655fc 1ab3815c fc19bb19>";//
+    //[NetmeraPushService unRegisterInBackgroundWithToken:token];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    UIApplicationState state = [application applicationState];
+    if (state == UIApplicationStateActive) {
+        NSString *cancelTitle = @"Close";
+        NSString *showTitle = @"Show";
+        NSString *message = [[userInfo valueForKey:@"aps"] valueForKey:@"alert"];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Some title"
+                                                            message:message
+                                                           delegate:self
+                                                  cancelButtonTitle:cancelTitle
+                                                  otherButtonTitles:showTitle, nil];
+        [alertView show];
+        [alertView release];
+    } else {
+        //Do stuff that you would do if the application was not active
+    }
 }
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
     
     // Do something
     NSString *str = [NSString stringWithFormat: @"Error: %@", err];
-    NSLog(@"%@" ,str);
-    
-}
+    DataManager *dataManager = [DataManager getInstance];
+    //dataManager.devicetoken = @"<02ebfd7a ac20641b f9cce758 e4438336 31e2a517 8a9655fc 1ab3815c fc19bb19>";//[deviceToken description];
 
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    
-    // Do something
-    for (id key in userInfo) {
-        NSLog(@"key: %@, value: %@", key, [userInfo objectForKey:key]);
-    }
+    NSLog(@"%@" ,str);
     
 }
 

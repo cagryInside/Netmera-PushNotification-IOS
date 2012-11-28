@@ -30,10 +30,15 @@
 		EC_INVALID_URL,
         EC_ALREADY_REGISTERED_EMAIL,
         EC_NOT_REGISTERED_EMAIL,
-        EC_DISTANCE_EXEPTION
+        EC_DISTANCE_EXEPTION,
+        EC_FACEBOOK_SESSION_CLOSED,
+        EC_FACEBOOK_SESSION_FAILED,
+        EC_FACEBOOK_APP_ID_EMPTY,
+        EC_TWITTER_CONSUMER_EMPTY,
+        EC_NO_TWITTER_ACCOUNT,
+        EC_USER_CANCEL_AUTHENTICATION
      };
 }
-
 
 + (NSError *) createIOError;
 + (NSError *) createREQUIRED_FIELDErrorWithString:(NSString *)requiredField;
@@ -47,5 +52,11 @@
 + (NSError *) createALREADY_REGISTERED_EMAILError;
 + (NSError *) createNOT_REGISTERED_EMAILErrorWithString:(NSString *)errorMessage;
 + (NSError *) createEC_DISTANCEError;
++ (NSError *) createFACEBOOK_SESSION_CLOSEDError;
++ (NSError *) createFACEBOOK_SESSION_FAILEDError;
++ (NSError *) createFACEBOOK_APP_ID_EMPTYError;
++ (NSError *) createTWITTER_CONSUMER_EMPTYError;
++ (NSError *) createNO_TWITTER_ACCOUNTError;
++ (NSError *) createUSER_CANCEL_AUTHENTICATIONError;
 
 @end

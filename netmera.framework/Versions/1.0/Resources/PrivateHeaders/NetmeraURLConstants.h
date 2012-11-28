@@ -79,6 +79,8 @@ extern NSString * const UC_SEARCH_CONTENT_URL;
 extern NSString * const UC_GET_CONTENT_URL;
 extern NSString * const UC_LOCATION_SEARCH_CONTENT_URL;
 //user
+extern NSString * const UC_REST_FACEBOOK_LOGIN;
+extern NSString * const UC_REST_TWITTER_LOGIN;
 extern NSString * const UC_REST_REGISTER_USER_URL;
 extern NSString * const UC_REST_PEOPLE_PROFILE_UPDATE_URL;
 extern NSString * const UC_REST_PEOPLE_ACCOUNT_UPDATE;
@@ -88,6 +90,11 @@ extern NSString * const UC_REST_PEOPLE_SEARCH;
 //push
 
 extern NSString * const URL_REGISTER;
+extern NSString * const URL_REGISTER_DEVICE;
+extern NSString * const URL_UNREGISTER_DEVICE;
 extern NSString * const URL_UNREGISTER;
+extern NSString * const URL_SEND_NOTIFICATION;
+extern NSString * const URL_GET_DEVICE_GROUPS;
+extern NSString * const URL_GET_DEVICE_DETAIL;
 
 @end

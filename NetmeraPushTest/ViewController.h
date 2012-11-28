@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)register:(id)sender;
+- (IBAction)unregister:(id)sender;
+- (IBAction)deviceGroups:(id)sender;
+- (IBAction)pushdetails:(id)sender;
+- (IBAction)sendPush:(id)sender;
 @end

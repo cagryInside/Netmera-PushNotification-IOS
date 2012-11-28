@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F718BF4F1637FC8500655F0E /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F718BF4E1637FC8500655F0E /* DataManager.m */; };
+		F718BF541637FE7B00655F0E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718BF521637FE7B00655F0E /* RegisterViewController.m */; };
+		F718BF551637FE7B00655F0E /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718BF531637FE7B00655F0E /* RegisterViewController.xib */; };
+		F718BF5E1637FEC500655F0E /* DevicegroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718BF5C1637FEC500655F0E /* DevicegroupsViewController.m */; };
+		F718BF5F1637FEC500655F0E /* DevicegroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718BF5D1637FEC500655F0E /* DevicegroupsViewController.xib */; };
+		F718BF631637FED800655F0E /* PushdetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718BF611637FED800655F0E /* PushdetailViewController.m */; };
+		F718BF641637FED800655F0E /* PushdetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718BF621637FED800655F0E /* PushdetailViewController.xib */; };
+		F718BF681637FF1400655F0E /* SendpushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F718BF661637FF1400655F0E /* SendpushViewController.m */; };
+		F718BF691637FF1400655F0E /* SendpushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F718BF671637FF1400655F0E /* SendpushViewController.xib */; };
+		F718BF6F1638036200655F0E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F718BF6E1638036200655F0E /* libsqlite3.dylib */; };
+		F718BF731638036F00655F0E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F718BF721638036F00655F0E /* CoreLocation.framework */; };
+		F718BF771638037E00655F0E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F718BF761638037E00655F0E /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F758B17E15FF4D5100656C97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B17D15FF4D5100656C97 /* UIKit.framework */; };
 		F758B18015FF4D5100656C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B17F15FF4D5100656C97 /* Foundation.framework */; };
 		F758B18215FF4D5100656C97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B18115FF4D5100656C97 /* CoreGraphics.framework */; };
@@ -22,9 +34,30 @@
 		F758B1A715FF4E2300656C97 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A615FF4E2300656C97 /* CFNetwork.framework */; };
 		F758B1A915FF4E3500656C97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F758B1A815FF4E3500656C97 /* SystemConfiguration.framework */; };
 		F758B1BC15FF879500656C97 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F758B1BB15FF879500656C97 /* README.md */; };
+		F7E4471A165CB95C000B0C42 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E44719165CB95C000B0C42 /* libxml2.dylib */; };
+		F7E4471D165CB969000B0C42 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E4471C165CB969000B0C42 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F718BF4D1637FC8500655F0E /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		F718BF4E1637FC8500655F0E /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F718BF511637FE7B00655F0E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F718BF521637FE7B00655F0E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F718BF531637FE7B00655F0E /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		F718BF5B1637FEC400655F0E /* DevicegroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicegroupsViewController.h; sourceTree = "<group>"; };
+		F718BF5C1637FEC500655F0E /* DevicegroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicegroupsViewController.m; sourceTree = "<group>"; };
+		F718BF5D1637FEC500655F0E /* DevicegroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevicegroupsViewController.xib; sourceTree = "<group>"; };
+		F718BF601637FED800655F0E /* PushdetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushdetailViewController.h; sourceTree = "<group>"; };
+		F718BF611637FED800655F0E /* PushdetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushdetailViewController.m; sourceTree = "<group>"; };
+		F718BF621637FED800655F0E /* PushdetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushdetailViewController.xib; sourceTree = "<group>"; };
+		F718BF651637FF1400655F0E /* SendpushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendpushViewController.h; sourceTree = "<group>"; };
+		F718BF661637FF1400655F0E /* SendpushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendpushViewController.m; sourceTree = "<group>"; };
+		F718BF671637FF1400655F0E /* SendpushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendpushViewController.xib; sourceTree = "<group>"; };
+		F718BF6E1638036200655F0E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F718BF701638036800655F0E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F718BF721638036F00655F0E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F718BF741638037600655F0E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F718BF761638037E00655F0E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		F758B17915FF4D5100656C97 /* NetmeraPushTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetmeraPushTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F758B17D15FF4D5100656C97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F758B17F15FF4D5100656C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,6 +78,8 @@
 		F758B1A615FF4E2300656C97 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		F758B1A815FF4E3500656C97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F758B1BB15FF879500656C97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F7E44719165CB95C000B0C42 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F7E4471C165CB969000B0C42 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E4471D165CB969000B0C42 /* Twitter.framework in Frameworks */,
+				F7E4471A165CB95C000B0C42 /* libxml2.dylib in Frameworks */,
+				F718BF771638037E00655F0E /* Accounts.framework in Frameworks */,
+				F718BF731638036F00655F0E /* CoreLocation.framework in Frameworks */,
+				F718BF6F1638036200655F0E /* libsqlite3.dylib in Frameworks */,
 				F758B1A915FF4E3500656C97 /* SystemConfiguration.framework in Frameworks */,
 				F758B1A715FF4E2300656C97 /* CFNetwork.framework in Frameworks */,
 				F758B1A515FF4DFE00656C97 /* Security.framework in Frameworks */,
@@ -70,6 +110,13 @@
 		F758B16E15FF4D5100656C97 = {
 			isa = PBXGroup;
 			children = (
+				F7E4471C165CB969000B0C42 /* Twitter.framework */,
+				F7E44719165CB95C000B0C42 /* libxml2.dylib */,
+				F718BF761638037E00655F0E /* Accounts.framework */,
+				F718BF741638037600655F0E /* Social.framework */,
+				F718BF721638036F00655F0E /* CoreLocation.framework */,
+				F718BF701638036800655F0E /* AdSupport.framework */,
+				F718BF6E1638036200655F0E /* libsqlite3.dylib */,
 				F758B1BB15FF879500656C97 /* README.md */,
 				F758B18315FF4D5100656C97 /* NetmeraPushTest */,
 				F758B17C15FF4D5100656C97 /* Frameworks */,
@@ -104,12 +151,26 @@
 		F758B18315FF4D5100656C97 /* NetmeraPushTest */ = {
 			isa = PBXGroup;
 			children = (
+				F718BF4D1637FC8500655F0E /* DataManager.h */,
+				F718BF4E1637FC8500655F0E /* DataManager.m */,
 				F758B18C15FF4D5100656C97 /* AppDelegate.h */,
 				F758B18D15FF4D5100656C97 /* AppDelegate.m */,
 				F758B18F15FF4D5100656C97 /* ViewController.h */,
 				F758B19015FF4D5100656C97 /* ViewController.m */,
 				F758B19215FF4D5100656C97 /* ViewController.xib */,
 				F758B18415FF4D5100656C97 /* Supporting Files */,
+				F718BF511637FE7B00655F0E /* RegisterViewController.h */,
+				F718BF521637FE7B00655F0E /* RegisterViewController.m */,
+				F718BF531637FE7B00655F0E /* RegisterViewController.xib */,
+				F718BF5B1637FEC400655F0E /* DevicegroupsViewController.h */,
+				F718BF5C1637FEC500655F0E /* DevicegroupsViewController.m */,
+				F718BF5D1637FEC500655F0E /* DevicegroupsViewController.xib */,
+				F718BF601637FED800655F0E /* PushdetailViewController.h */,
+				F718BF611637FED800655F0E /* PushdetailViewController.m */,
+				F718BF621637FED800655F0E /* PushdetailViewController.xib */,
+				F718BF651637FF1400655F0E /* SendpushViewController.h */,
+				F718BF661637FF1400655F0E /* SendpushViewController.m */,
+				F718BF671637FF1400655F0E /* SendpushViewController.xib */,
 			);
 			path = NetmeraPushTest;
 			sourceTree = "<group>";
@@ -179,6 +240,10 @@
 				F758B18815FF4D5100656C97 /* InfoPlist.strings in Resources */,
 				F758B19415FF4D5100656C97 /* ViewController.xib in Resources */,
 				F758B1BC15FF879500656C97 /* README.md in Resources */,
+				F718BF551637FE7B00655F0E /* RegisterViewController.xib in Resources */,
+				F718BF5F1637FEC500655F0E /* DevicegroupsViewController.xib in Resources */,
+				F718BF641637FED800655F0E /* PushdetailViewController.xib in Resources */,
+				F718BF691637FF1400655F0E /* SendpushViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +257,11 @@
 				F758B18A15FF4D5100656C97 /* main.m in Sources */,
 				F758B18E15FF4D5100656C97 /* AppDelegate.m in Sources */,
 				F758B19115FF4D5100656C97 /* ViewController.m in Sources */,
+				F718BF4F1637FC8500655F0E /* DataManager.m in Sources */,
+				F718BF541637FE7B00655F0E /* RegisterViewController.m in Sources */,
+				F718BF5E1637FEC500655F0E /* DevicegroupsViewController.m in Sources */,
+				F718BF631637FED800655F0E /* PushdetailViewController.m in Sources */,
+				F718BF681637FF1400655F0E /* SendpushViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +337,10 @@
 		F758B19815FF4D5100656C97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -276,6 +350,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetmeraPushTest/NetmeraPushTest-Prefix.pch";
 				INFOPLIST_FILE = "NetmeraPushTest/NetmeraPushTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
@@ -286,6 +361,10 @@
 		F758B19915FF4D5100656C97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer: Serhat SARI (U6B533V452)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Serhat SARI (U6B533V452)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -295,6 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NetmeraPushTest/NetmeraPushTest-Prefix.pch";
 				INFOPLIST_FILE = "NetmeraPushTest/NetmeraPushTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1C722D59-E71D-4860-A31E-E8FFF1C167BF";

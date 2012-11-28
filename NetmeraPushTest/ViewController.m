@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "RegisterViewController.h"
+#import "DevicegroupsViewController.h"
+#import "PushdetailViewController.h"
+#import "SendpushViewController.h"
 
 @interface ViewController ()
 
@@ -31,4 +35,34 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)register:(id)sender {
+    RegisterViewController *createView = [[RegisterViewController alloc] init];
+    createView.isRegister = YES;
+    [self presentModalViewController:createView animated:YES];
+    [createView release];
+}
+- (IBAction)unregister:(id)sender {
+    RegisterViewController *createView = [[RegisterViewController alloc] init];
+    createView.isRegister = NO;
+    [self presentModalViewController:createView animated:YES];
+    [createView release];
+}
+
+- (IBAction)deviceGroups:(id)sender {
+    DevicegroupsViewController *createView = [[DevicegroupsViewController alloc] init];
+    [self presentModalViewController:createView animated:YES];
+    [createView release];
+}
+
+- (IBAction)pushdetails:(id)sender {
+    PushdetailViewController *createView = [[PushdetailViewController alloc] init];
+    [self presentModalViewController:createView animated:YES];
+    [createView release];
+}
+
+- (IBAction)sendPush:(id)sender {
+    SendpushViewController *createView = [[SendpushViewController alloc] init];
+    [self presentModalViewController:createView animated:YES];
+    [createView release];
+}
 @end

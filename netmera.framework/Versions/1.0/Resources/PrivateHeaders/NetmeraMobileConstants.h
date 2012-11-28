@@ -18,6 +18,8 @@
 
 @interface NetmeraMobileConstants : NSObject
 
+#define MC_SUCCESS_CODE 1000
+
 extern NSString * const MC_METHOD_GET;
 extern NSString * const MC_METHOD_POST;
 
@@ -85,6 +87,8 @@ extern NSString * const MC_REST_DEACTIVATE_USER;
 extern NSString * const MC_RESULT;
 
 extern NSString * const MC_NETMERA_USER_EMAIL;
+extern NSString * const MC_NETMERA_USER_FACEBOOK_ID;
+extern NSString * const MC_NETMERA_USER_TWITTER_ID;
 extern NSString * const MC_NETMERA_USER_EMAIL_VALUE;
 extern NSString * const MC_NETMERA_USER_EMAILS;
 extern NSString * const MC_NETMERA_USER_PASSWORD;
@@ -93,6 +97,8 @@ extern NSString * const MC_NETMERA_USER_NAME;
 extern NSString * const MC_NETMERA_USER_GIVEN_NAME;
 extern NSString * const MC_NETMERA_USER_FAMILY_NAME;
 extern NSString * const MC_NETMERA_USER_SURNAME;
+extern NSString * const MC_NETMERA_USER_IS_NEW;
+extern NSString * const MC_NETMERA_USER_MAIL_GENERATED;
 extern NSString * const MC_NETMERA_USER_SECURITY_TOKEN;
 extern NSString * const MC_NETMERA_USER_DEFAULT_NICKNAME;
 
@@ -133,5 +139,22 @@ extern NSString * const MC_NETMERA_MEDIA_CONTENT;
 extern NSString * const MC_NETMERA_MEDIA_DATA;
 extern NSString * const MC_NETMERA_MEDIA_THUMBNAIL_URL;
 extern NSString * const MC_ENTRYY;
+
+extern NSString * const MC_CODE;
+
+
+extern NSString * const MC_PUSH_IOS_NAME_KEY;
+extern NSString * const MC_PUSH_ANDROID_NAME_KEY;
+extern NSString * const MC_PUSH_REG_ID;
+extern NSString * const MC_PUSH_CHANNEL;
+extern NSString * const MC_PUSH_CHANNELS;
+extern NSString * const MC_PUSH_DEVICE_GROUPS;
+extern NSString * const MC_PUSH_MESSAGE;
+extern NSString * const MC_PUSH_SEND_DATE;
+extern NSString * const MC_PUSH_STATUS;
+extern NSString * const MC_PUSH_ERROR;
+extern NSString * const MC_PUSH_SUCCESSFULL;
+extern NSString * const MC_PUSH_FAILED;
+extern NSString * const MC_PUSH_GROUP_NAME;
 
 @end
